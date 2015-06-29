@@ -21,10 +21,12 @@ public class Observer {
         s.ChangeTheSubject(7,11);
         CIA cia = new CIA();
         s.Add(cia);
-        
+        KGB kgb = new KGB();
+        s.Add(kgb);
         DGSE dgse = new DGSE();
         s.Add(dgse);
         s.ChangeTheSubject(45,67);
+        s.ChangeTheSubject(35, 76);
        // nsa.AskForReportTotal();
     }
 }
